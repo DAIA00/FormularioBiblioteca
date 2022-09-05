@@ -72,43 +72,42 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="labelDatos" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="labelIdentificacion" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="labelNombre" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="labelDireccion" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="labelTelefono" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="labelCodCarrera" min="-2" pref="142" max="-2" attributes="0"/>
+                              <Component id="labelNombre" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbxCodCarrera" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="texfCodLector" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="texfNombre" alignment="0" pref="200" max="32767" attributes="0"/>
+                                      <Component id="texfIdentificacion" alignment="0" pref="200" max="32767" attributes="0"/>
+                                      <Component id="texfDireccion" alignment="0" pref="200" max="32767" attributes="0"/>
+                                      <Component id="texfTelefono" alignment="0" pref="200" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="btnEliminar" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnGuardar" min="-2" pref="81" max="-2" attributes="0"/>
+                                          <Component id="btnModificar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
-                  </Group>
-                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="texfDireccion" min="-2" pref="200" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="btnEliminar" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="texfNombre" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                  <Component id="texfIdentificacion" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="47" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="btnGuardar" max="32767" attributes="0"/>
-                                  <Component id="btnEditar" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="cbxCodCarrera" alignment="0" max="32767" attributes="0"/>
-                          <Component id="texfTelefono" alignment="0" pref="200" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="labelDatos" min="-2" pref="239" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
@@ -120,25 +119,30 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="labelDatos" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="texfCodLector" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="labelIdentificacion" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="texfIdentificacion" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnModificar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="labelNombre" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="texfNombre" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnEditar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="labelDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="texfDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="labelTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="texfTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -148,7 +152,7 @@
                       <Component id="labelCodCarrera" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="cbxCodCarrera" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="62" max="32767" attributes="0"/>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -160,7 +164,7 @@
               <Font name="Segoe UI" size="24" style="0"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Datos"/>
+            <Property name="text" type="java.lang.String" value="Gestionar Lector"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="labelIdentificacion">
@@ -213,6 +217,9 @@
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="texfTelefono">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="texfTelefonoActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnGuardar">
           <Properties>
@@ -222,15 +229,21 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnEditar">
+        <Component class="javax.swing.JButton" name="btnModificar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Editar"/>
+            <Property name="text" type="java.lang.String" value="Modificar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModificarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnEliminar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Eliminar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="cbxCodCarrera">
           <Properties>
@@ -241,6 +254,19 @@
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCodigo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Codigo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="texfCodLector">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="No digite valores"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
